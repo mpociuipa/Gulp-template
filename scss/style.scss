@@ -1,3 +1,55 @@
-body {
-  background:red;
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;700&family=Lato&display=swap');
+@import "general";
+@import "nav";
+@import "main";
+@import "media";
+@import "footer";
+
+body{
+  background: white;
+}
+
+
+.css-images {
+  .img {
+    background: url(../images/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    text-align: center;
+    color: rgb(248, 245, 245);
+    padding-top: 300px;
+  }
+  .img-1 {
+    background: url(../images/testimonials-1.jpg);
+    background-size: 150px;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: rgb(248, 245, 245);
+    border-radius: 100px;
+  }
+  .img-2 {
+    background: url(../images/testimonials-2.jpg);
+    background-size: 150px;
+    background-position: center !important;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: rgb(248, 245, 245);
+    border-radius: 100px;
+  
+  }
+  .img-3 {
+    background: url(../images/testimonials-3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: rgb(248, 245, 245);
+    border-radius: 100px;
+  }
+
 }
