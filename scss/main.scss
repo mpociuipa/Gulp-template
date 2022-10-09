@@ -1,0 +1,100 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#testimonial {
+    width: 100%;
+    padding: 50px 0;
+
+}
+
+.testimonial-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.testimonial-col {
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: white;
+   
+.testimonial-col p {
+    font-size: 14px;
+}
+}
+h4, h2, p {
+    background-position: center;
+    width: 100%;
+    color: black;
+    text-align:center;
+    padding: 10px;
+}
+article .content {
+    width: 50%;
+    margin: auto;
+    color: white;
+    z-index: 1;
+    padding: 10px;
+
+}
+
+
+article .content p {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 3px solid white;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+ }
+.article-1 {
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: auto;
+}
+.article-2, .html-imges img {
+    background: url(../images/bg-showcase-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+.article-3 {
+    background: url(../images/bg-showcase-2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+.article-4 {
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+.article-5 {
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+.article-6 {
+    background: url(../images/bg-showcase-3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
