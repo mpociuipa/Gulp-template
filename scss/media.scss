@@ -1,6 +1,27 @@
 
-@media screen and (max-width: 500px) {
-    .column {
+@media screen and (min-width: 768px) {
+  .css-images {
+    .img  {
+      display: block;
       width: 100%;
+      padding-bottom: 30px;
+      width: 600px;
+      margin: 0 auto;
     }
   }
+}
+.row, .column, h2, p{
+  font-size: 1rem;
+
+  @media (min-width: 43.75em) {
+    font-size: 2.5rem;
+    
+  }
+  @media (min-width: 62em) {
+    font-size: 3rem;
+  }
+  @media (min-width: 89em) {
+    font-size: 4.5rem;
+  }
+}
+
