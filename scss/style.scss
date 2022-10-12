@@ -6,7 +6,7 @@
 @import "footer";
 
 body{
-  background: white;
+  background: grey;
 }
 
 
@@ -23,18 +23,20 @@ body{
   }
   .img-1 {
     background: url(../images/testimonials-1.jpg);
-    background-size: 150px;
+    background-size: cover;
     background-position: center;
     width: 150px;
     height: 150px;
     text-align: center;
     color: rgb(248, 245, 245);
     border-radius: 100px;
+    
   }
   .img-2 {
     background: url(../images/testimonials-2.jpg);
-    background-size: 150px;
-    background-position: center !important;
+    background-size: cover;
+    background-position: center;
+ 
     width: 150px;
     height: 150px;
     text-align: center;
@@ -51,6 +53,8 @@ body{
     text-align: center;
     color: rgb(248, 245, 245);
     border-radius: 100px;
+   
+  
   }
 
 }
