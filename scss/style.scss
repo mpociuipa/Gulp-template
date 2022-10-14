@@ -25,19 +25,19 @@ body{
     background: url(../images/testimonials-1.jpg);
     background-size: cover;
     background-position: center;
-    width: 150px;
+    max-width: 150px;
     height: 150px;
     text-align: center;
     color: rgb(248, 245, 245);
     border-radius: 100px;
+
     
   }
   .img-2 {
     background: url(../images/testimonials-2.jpg);
     background-size: cover;
     background-position: center;
- 
-    width: 150px;
+    max-width: 150px;
     height: 150px;
     text-align: center;
     color: rgb(248, 245, 245);
@@ -48,13 +48,27 @@ body{
     background: url(../images/testimonials-3.jpg);
     background-size: cover;
     background-position: center;
-    width: 150px;
+    max-width: 150px;
     height: 150px;
     text-align: center;
     color: rgb(248, 245, 245);
     border-radius: 100px;
+    
+  
    
   
   }
 
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-left {
+  flex: 50%;
+}
+
+.flex-item-right {
+  flex: 50%;
 }

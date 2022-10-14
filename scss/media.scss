@@ -3,11 +3,8 @@
     width: 100%;
   }
 }
-@media (max-width: 500px) {
-  article {
-      width: 100% !important;
+@media screen and (max-width: 500px) {
+  .flex-item-right{
+    width: 100%;
   }
 }
-  article {
-      width: 100% !important;
-  }

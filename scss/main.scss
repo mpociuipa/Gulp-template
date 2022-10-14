@@ -65,35 +65,36 @@ article .content p {
     padding-bottom: 15px;
     margin-bottom: 15px;
  }
-.article-1 {
+.flex-container-1 {
     background-position: center;
     background-size: cover;
     width: 50%;
     height: auto;
+    
 }
-.article-2 {
+.flex-container-2 {
     background: url(../images/bg-showcase-1.jpg);
     background-position: center;
     background-size: cover;
     width: 50%;
 }
-.article-3 {
+.flex-container-3 {
     background: url(../images/bg-showcase-2.jpg);
     background-position: center;
     background-size: cover;
     width: 50%;
 }
-.article-4 {
+.flex-container-4 {
     background-position: center;
     background-size: cover;
     width: 50%;
 }
-.article-5 {
+.flex-container-5 {
     background-position: center;
     background-size: cover;
     width: 50%;
 }
-.article-6 {
+.flex-container-6 {
     background: url(../images/bg-showcase-3.jpg);
     background-position: center;
     background-size: cover;
@@ -112,4 +113,13 @@ article .content p {
   .column {
     flex: 33.33%;
     padding: 5px;
+   
+  }
+  .flex-item-left {
+    padding: 20px;
+    text-align: center;
+  }
+  .flex-item-right {
+    padding: 20px;
+    text-align: center;
   }
